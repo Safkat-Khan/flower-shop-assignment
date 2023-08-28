@@ -58,25 +58,63 @@ body {
 
 /*  */
 /* Flower style start */
-.flower-link {
+
+.featured-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
 }
-.flower-link img {
-    
+.tree-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.first-flower {
-  width: 310px;
-  height: 420px;
-  flex-shrink: 0;
+.text {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
-.second-flower {
-  width: 370px;
-  height: 370px;
-  flex-shrink: 0;
+
+.first {
+  width: 400px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
 }
-.third-flower {
-  width: 314px;
-  height: 471px;
-  flex-shrink: 0;
+
+.red-flower {
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
+
+.second {
+  width: 400px;
+  height: 500px;
+  background-color: #0597a026;
+  border-radius: 300px 300px 0px 0px;
+}
+
+.mixed-flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third {
+  width: 400px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.yellow-flower {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
 /*  */
