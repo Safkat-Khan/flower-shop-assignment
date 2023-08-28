@@ -117,4 +117,10 @@ body {
   align-items: end;
 }
 
-/*  */
+/*  survices style */
+.survices{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
