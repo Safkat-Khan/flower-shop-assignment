@@ -1,6 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
 }
+/* Banner Style start */
 .banner {
   display: flex;
   background: rgba(229, 84, 115, 0.1);
@@ -35,6 +36,9 @@ body {
   font-weight: 700;
   border: 0;
 }
+/* Banner Style Finished */
+
+/* Feature style start */
 .features {
   text-align: center;
   padding: 120px;
@@ -50,3 +54,29 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
+/* Feature style Finished */
+
+/*  */
+/* Flower style start */
+.flower-link {
+  display: flex;
+}
+.flower-link img {
+    
+}
+.first-flower {
+  width: 310px;
+  height: 420px;
+  flex-shrink: 0;
+}
+.second-flower {
+  width: 370px;
+  height: 370px;
+  flex-shrink: 0;
+}
+.third-flower {
+  width: 314px;
+  height: 471px;
+  flex-shrink: 0;
+}
+/*  */
