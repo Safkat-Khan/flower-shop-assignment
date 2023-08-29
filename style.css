@@ -77,40 +77,34 @@ body {
   font-weight: 700;
   text-decoration-line: underline;
 }
-
 .first {
   width: 400px;
   height: 500px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
-
 .red-flower {
   display: flex;
   justify-content: center;
   align-items: end;
 }
-
 .second {
   width: 400px;
   height: 500px;
   background-color: #0597a026;
   border-radius: 300px 300px 0px 0px;
 }
-
 .mixed-flower {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .third {
   width: 400px;
   height: 500px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
-
 .yellow-flower {
   display: flex;
   justify-content: center;
