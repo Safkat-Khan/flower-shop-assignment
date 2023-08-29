@@ -167,3 +167,32 @@ body {
   gap: 10px;
   margin-left: 220px;
 }
+/* socal Section */
+
+.socal-container {
+  margin-top: 150px;
+}
+.socal-tittle {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.socal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 450px;
+}
+.socal-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.socal-photo {
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
