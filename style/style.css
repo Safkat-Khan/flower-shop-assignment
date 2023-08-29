@@ -187,12 +187,62 @@ body {
 }
 .socal-img-container {
   display: flex;
-  justify-content: center;
-  gap: 20px;
   align-items: center;
+  margin: 10px 50px 150px 50px;
+  gap: 50px;
 }
 .socal-photo {
-  padding: 20px;
-  height: 300px;
-  width: 300px;
+  padding: 0px 10px;
+  height: 50%;
+  width: 20%;
+}
+/* subscribe section */
+.subscribe-container {
+  background-image: url("../flower-asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 440px;
+  width: 90%;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+.subscribe-container button {
+  margin-left: 20px;
+}
+.subscribe-tittle {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.email-input {
+  border-radius: 8px;
+  background: #fff;
+  width: 700px;
+  height: 64px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-email {
+  align-items: center;
+  text-align: center;
+}
+.sub-email {
+  width: 500px;
+  height: 55px;
+  border: 0;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
 }
