@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
 }
-/* Banner Style start */
+/* Banner Section start */
 .banner {
   display: flex;
   background: rgba(229, 84, 115, 0.1);
@@ -37,9 +37,9 @@ body {
   font-weight: 700;
   border: 0;
 }
-/* Banner Style Finished */
+/* Banner Section Finished */
 
-/* Feature style start */
+/* Feature Section start */
 .features {
   text-align: center;
   padding: 120px;
@@ -55,9 +55,9 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
-/* Feature style Finished */
+/* Feature Section Finished */
 
-/* Flower style start */
+/* Flower Section start */
 
 .featured-container {
   display: flex;
@@ -116,8 +116,9 @@ body {
   justify-content: center;
   align-items: end;
 }
+/* Flower Section Finished */
 
-/*  survices style */
+/*  survices Section start */
 .survices {
   display: flex;
   justify-content: space-evenly;
@@ -131,14 +132,18 @@ body {
   font-weight: 600;
   margin: 100px 120px;
 }
-/* Offer Section */
+/*  survices Section Finished */
+
+/* Offer Section start */
 .offers-container {
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   padding: 100px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .offer-text {
-  padding: 100px;
+  margin: 100px;
 }
 .offer-tittle {
   color: #272727;
@@ -167,10 +172,11 @@ body {
   gap: 10px;
   margin-left: 220px;
 }
-/* socal Section */
+/* Offer Section Finished */
 
+/* Socal llink Section start */
 .socal-container {
-  margin-top: 150px;
+  margin: 70px 0px;
 }
 .socal-tittle {
   color: #272727;
@@ -187,8 +193,8 @@ body {
 }
 .socal-img-container {
   display: flex;
-  align-items: center;
-  margin: 10px 50px 150px 50px;
+  flex-direction: row;
+  margin: 50px 50px 100px 50px;
   gap: 50px;
 }
 .socal-photo {
@@ -196,15 +202,18 @@ body {
   height: 50%;
   width: 20%;
 }
-/* subscribe section */
+/*  Socal link Section Finished */
+
+/* Offer Section Finished */
+
+/* subscribe section start*/
 .subscribe-container {
   background-image: url("../flower-asset/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 440px;
   width: 90%;
-  margin-bottom: 100px;
-  margin-left: 80px;
+  margin: 100px 80px;
 }
 .subscribe-container button {
   margin-left: 20px;
@@ -224,15 +233,7 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-.email-input {
-  border-radius: 8px;
-  background: #fff;
-  width: 700px;
-  height: 64px;
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 16px;
-  font-weight: 400;
-}
+
 .btn-email {
   align-items: center;
   text-align: center;
@@ -246,7 +247,9 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-/* footer section */
+/* subscribe section Finished*/
+
+/* footer section start */
 .footer {
   background: #111010;
   padding: 100px;
@@ -273,3 +276,4 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+/* footer section Finished */
