@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
 }
 /* Banner Style start */
 .banner {
@@ -56,7 +57,6 @@ body {
 }
 /* Feature style Finished */
 
-/*  */
 /* Flower style start */
 
 .featured-container {
@@ -204,7 +204,7 @@ body {
   height: 440px;
   width: 90%;
   margin-bottom: 100px;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 .subscribe-container button {
   margin-left: 20px;
@@ -243,6 +243,33 @@ body {
   border: 0;
   border-radius: 8px;
   color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* footer section */
+.footer {
+  background: #111010;
+  padding: 100px;
+}
+.footer-tittle {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.color-text-flower {
+  color: #e55473;
+}
+.footer-decription {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 400px;
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
 }
